@@ -1,8 +1,9 @@
-const divide = (p1, p2) => p1 / p2;
-divide(2,6)
+const divide = n => n / 100;
 
-const square = x => x ** 2;
-square(2) 
+divide(2000);
 
-const add = (a, b) => a + b;
-add(4,3)
+const square = n => n ** 2;
+
+const add = (p1, p2) => p1 + p2;
+
+add(24, 42)
